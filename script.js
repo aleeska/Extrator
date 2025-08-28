@@ -11,5 +11,5 @@ function mostraPalavrasChave() {
 
   const palavras = texto.split(" ");
 
-  campoResultado.textContent = palavras;
+  campoResultado.textContent = palavras.join("- ");
 }
